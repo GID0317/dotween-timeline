@@ -18,14 +18,14 @@ Easiest way is to install DOTween Timeline as an asset package.
 ### Git UPM (with Package Manager UI)
 1. Since DOTween is not distributed as a upm package by default, you need to manually generate `.asmdef` files for it:\
   Open **Tools > Demigiant > DOTween Utility Panel**, click **Create ASMDEF** (You can skip this if you already did it)
-2. Click **Window > Package Manager** to open Package Manager UI.
-3. Click **+ > Add package from git URL...**
+2. Click **Window > Package Management > Package Manager** to open Package Manager UI.
+3. Click **+ > Install package from git URL...**
 4. Then input the repository URL: 
 ```
 https://github.com/medvejut/dotween-timeline.git#upm
 ```
 
-  ![](https://github.com/user-attachments/assets/fffe7c46-6f49-4fa4-81a2-2f10afd75231)
+  ![](https://github.com/user-attachments/assets/7a3a6b30-acf3-4b7c-8fbc-b5d85fa05353)
 
 ### Git UPM (Manually)
 You can also install this package manually via Git URL using Unity Package Manager.

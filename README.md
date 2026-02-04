@@ -14,10 +14,23 @@ Easiest way is to install DOTween Timeline as an asset package.
 1. Download the latest ```.unitypackage``` file from the [Releases page](https://github.com/medvejut/dotween-timeline/releases).
 2. Import it into your project via **Assets > Import Package > Custom Package**.
 
-### Git UPM
-You can also install this package via Git URL using Unity Package Manager.
+
+### Git UPM (with Package Manager UI)
 1. Since DOTween is not distributed as a upm package by default, you need to manually generate `.asmdef` files for it:\
-  Open **Tools > Demigiant > DOTween Utility Panel**, click **Create ASMDEF**
+  Open **Tools > Demigiant > DOTween Utility Panel**, click **Create ASMDEF** (You can skip this if you already did it)
+2. Click **Window > Package Manager** to open Package Manager UI.
+3. Click **+ > Add package from git URL...**
+4. Then input the repository URL: 
+```
+"com.medvejut.dotweentimeline": "https://github.com/medvejut/dotween-timeline.git#upm"
+```
+
+  ![](https://github.com/user-attachments/assets/fffe7c46-6f49-4fa4-81a2-2f10afd75231)
+
+### Git UPM (Manually)
+You can also install this package manually via Git URL using Unity Package Manager.
+1. Since DOTween is not distributed as a upm package by default, you need to manually generate `.asmdef` files for it:\
+  Open **Tools > Demigiant > DOTween Utility Panel**, click **Create ASMDEF** (You can skip this if you already did it)
 2. Then, add the following line to your `Packages/manifest.json`:
 ```
 "com.medvejut.dotweentimeline": "https://github.com/medvejut/dotween-timeline.git#upm"

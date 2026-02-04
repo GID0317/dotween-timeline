@@ -22,7 +22,7 @@ Easiest way is to install DOTween Timeline as an asset package.
 3. Click **+ > Add package from git URL...**
 4. Then input the repository URL: 
 ```
-"com.medvejut.dotweentimeline": "https://github.com/medvejut/dotween-timeline.git#upm"
+https://github.com/medvejut/dotween-timeline.git#upm
 ```
 
   ![](https://github.com/user-attachments/assets/fffe7c46-6f49-4fa4-81a2-2f10afd75231)
